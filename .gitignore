@@ -1,0 +1,9 @@
+*.sh
+*.ods
+
+# Virtualenv & data directories
+venv/
+data/
+
+# vscode
+.vscode/

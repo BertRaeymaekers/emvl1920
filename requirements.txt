@@ -1,0 +1,8 @@
+#simpleodspy
+#odfpy
+beautifulsoup4              # HTML parsing
+numpy                       # Numberic calculations
+pandas                      # Data structures
+#pyarrow                     # For saving in feather/parquet format
+fastparquet                 # For saving in parquet format
+scikit-learn                # Machine Learning
