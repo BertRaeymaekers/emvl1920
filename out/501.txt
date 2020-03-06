@@ -1,0 +1,25 @@
+Correlation L_VP and PointsTot - ServeErr - RecErr - SpikeErr - SpikeHP: 1.0
+Correlation L_VP and PointsTot - ServeErr - RecErr - SpikeErr - SpikeHP: 1.0
+
+Correlation PointsTot and ServeAce + SpikeWin + BlockWin: 1.0
+Correlation PointsTot and ServeAce + SpikeWin + BlockWin: 1.0
+
+Comparing HOHE vs GUEST (aka the home advantage)
+           wilcoxon  pairwise t-test
+L_VP       0.020931         0.048460
+PointsTot  0.036686         0.032736
+Points     0.041220         0.059550
+ServeTot   0.042136         0.063156
+SpikePos   0.045975         0.055409
+RecPerf    0.088185         0.039031
+SpikeWin   0.089455         0.066561
+RecPos     0.093014         0.051222
+ServeAce   0.108860         0.100096
+RecErr     0.115681         0.106166
+SpikeErr   0.124810         0.121535
+RecTot     0.174035         0.173881
+RecTot_sm  0.174035         0.173881
+SpikeHP    0.295345         0.196152
+BlockWin   0.360424         0.229834
+ServeErr   0.466705         0.368232
+SpikeTot   0.883188         1.000000
