@@ -3,6 +3,9 @@
 beautifulsoup4              # HTML parsing
 numpy                       # Numberic calculations
 pandas                      # Data structures
+visidata                    # Command line data visualization
+matplotlib                  # Visualization
 #pyarrow                     # For saving in feather/parquet format
 fastparquet                 # For saving in parquet format
+statsmodels                 # Statistical Modeling
 scikit-learn                # Machine Learning

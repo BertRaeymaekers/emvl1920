@@ -142,7 +142,7 @@ def clean_dataframe(df):
 
     return df \
         .replace('^([0-9]+)%$', '\\1', regex=True) \
-        .replace('-', np.nan) \
+        .replace('-', 0) \
         .replace('.', np.nan) \
         .astype(force_type)
 
@@ -173,7 +173,7 @@ print(pls_games_df.dtypes)
 print(pls_sets_df.dtypes)
 
 # Writing
-games_df.to_parquet('data/df/games.prqt', compression='gzip')
-sets_df.to_parquet('data/df/sets.prqt', compression='gzip')
-pls_games_df.to_parquet('data/df/pls_games.prqt', compression='gzip')
-pls_sets_df.to_parquet('data/df/pls_sets.prqt', compression='gzip')
+games_df.to_parquet('data/df2/games.prqt', compression='gzip')
+sets_df.to_parquet('data/df2/sets.prqt', compression='gzip')
+pls_games_df.to_parquet('data/df2/pls_games.prqt', compression='gzip')
+pls_sets_df.to_parquet('data/df2/pls_sets.prqt', compression='gzip')

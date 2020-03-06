@@ -1,0 +1,19 @@
+PointsTot   nr of point scored
+Points      nr break point scored (i.e. on own team serve)
+L_VP        win-lost difference
+ServerTot   nr of serves
+ServeErr    nr of fault serves
+ServeAce    nr of ace servces
+RecTot      nr of receptions
+RecErr      nr of fault receptions
+RecPos      percentage of positive receptions
+RecPerf     reception performance
+SpikeTot    nr of spikes
+SpikeErr    nr of fault spikes
+SpikeHP     nr of spikes blocked
+SpikeWin    nr of won spikes
+SpikePos    percentage of won spikes
+BlockWin    nr of blocks won
+
+# Hypothesis 1: L_VP = PointsTot - ServeErr - RecErr - SpikeErr - SpikeHP
+# Hypothesis 2: PointsTot = ServeAce + SpikeWin + BlockWin
